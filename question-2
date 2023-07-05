@@ -1,0 +1,12 @@
+2.Write a Python program find the common values that appear in two given strings.
+
+s1 = 'Python3'
+s2 = 'Python2.7'
+result = ''
+print('Original strings:')
+print(s1)
+print(s2)
+for ch in s1:
+    if ch in s2 and ch not in result:
+        result+=ch
+print('Intersection of two string said:\n',result)
