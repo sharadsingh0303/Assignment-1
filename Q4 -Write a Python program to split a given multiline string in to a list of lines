@@ -1,0 +1,8 @@
+4.Write a Python program to split a given multiline string in to a list of lines
+
+str = "This is multiline string"
+print('Original string:')
+print(str)
+new_str = str.split()
+print('After spliting the string')
+print(new_str)
