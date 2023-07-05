@@ -3,6 +3,7 @@ Python programs
 
 Question are :
 1.Write a Python program to remove all consecutive duplicates of a given string.
+
 2.Write a Python program find the common values that appear in two given strings.
 3.Write a Python program to remove unwanted characters from a given string.
 4.Write a Python program to split a given multiline string in to a list of lines.
