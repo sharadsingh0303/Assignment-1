@@ -1,0 +1,13 @@
+3.Write a Python program to remove unwanted characters from a given string
+
+s1 = 'A%^!B#*CD'
+print('original string: ')
+print(s1)
+result =''
+
+for ch in s1:
+    if ch.isalpha():
+        result+=ch
+
+print('After removing unwanted characters')
+print(result)
