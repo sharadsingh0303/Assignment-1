@@ -1,0 +1,38 @@
+5.Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included)
+
+lower = 1500
+upper = 2700
+new_num = []
+for num in range(lower,upper+1):
+    if num%7==0 and num%5==0:
+        new_num.append(num)
+
+print(new_num)
+
+#return output in string
+lower = 1500
+upper = 2700
+new_num = []
+for num in range(lower,upper+1):
+    if (num%7==0) and (num%5==0):
+        new_num.append(str(num))
+
+print(','.join(new_num))
+
+#using list comprhension
+result = [num for num in range(1500,2701) if num%7==0 and num%5==0]
+print(result)
+
+#using list comprhension but output return in string
+result = ','.join([str(num) for num in range(1500,2701) if num%7==0 and num%5==0])
+print(result)
+
+#above same program but a little bit different
+result = [str(num) for num in range(1500,2701) if num%7==0 and num%5==0]
+print(','.join(result))
+
+#more example
+s = ['I', 'want', 4, 'apples', 'and', 18, 'bananas']
+listtostr = ' '.join([str(elem) for elem in s])
+
+print(listtostr)
